@@ -1,0 +1,137 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "Name": "product 1",
+      "Quantity": 20,
+      "Price": 100,
+      "Img": "img src",
+      "CateogryID": 1
+    },
+    {
+      "id": 2,
+      "Name": "product 2",
+      "Quantity": 20,
+      "Price": 200,
+      "Img": "img src",
+      "CateogryID": 1
+    },
+    {
+      "id": 3,
+      "Name": "product 3",
+      "Quantity": 20,
+      "Price": 300,
+      "Img": "img src",
+      "CateogryID": 1
+    },
+    {
+      "id": 4,
+      "Name": "product 4",
+      "Quantity": 20,
+      "Price": 100,
+      "Img": "img src",
+      "CateogryID": 2
+    },
+    {
+      "id": 5,
+      "Name": "product 5",
+      "Quantity": 20,
+      "Price": 200,
+      "Img": "img src",
+      "CateogryID": 2
+    },
+    {
+      "id": 6,
+      "Name": "product 6",
+      "Quantity": 20,
+      "Price": 300,
+      "Img": "img src",
+      "CateogryID": 2
+    },
+    {
+      "id": 7,
+      "Name": "product 7",
+      "Quantity": 20,
+      "Price": 100,
+      "Img": "img src",
+      "CateogryID": 3
+    },
+    {
+      "id": 8,
+      "Name": "product 8",
+      "Quantity": 20,
+      "Price": 200,
+      "Img": "img src",
+      "CateogryID": 3
+    },
+    {
+      "id": 9,
+      "Name": "product 9",
+      "Quantity": 20,
+      "Price": 300,
+      "Img": "img src",
+      "CateogryID": 3
+    },
+    {
+      "id": 10,
+      "Name": "product 10",
+      "Price": 100,
+      "Quantity": 20,
+      "Img": "imgUrl",
+      "CateogryID": 1
+    },
+    {
+      "id": 11,
+      "Name": "product 11",
+      "Price": 200,
+      "Quantity": 20,
+      "Img": "imgUrl",
+      "CateogryID": 1
+    },
+    {
+      "id": 14,
+      "Name": "product 14",
+      "Price": 200,
+      "Quantity": 20,
+      "Img": "imgUrl",
+      "CateogryID": 1
+    },
+    {
+      "id": 17,
+      "Name": "pro 1",
+      "Price": 200,
+      "Quantity": 30,
+      "Img": "imgUrl",
+      "CateogryID": "3"
+    },
+    {
+      "id": 20,
+      "Name": "product 11",
+      "Price": 200,
+      "Quantity": 20,
+      "Img": "imgUrl",
+      "CateogryID": 1
+    },
+    {
+      "id": 15,
+      "Name": "product 15",
+      "Price": 200,
+      "Quantity": 20,
+      "CateogryID": "2"
+    }
+  ],
+  "Category": [
+    {
+      "id": 1,
+      "Name": "Category 1"
+    },
+    {
+      "id": 2,
+      "Name": "Category 2"
+    },
+    {
+      "id": 3,
+      "Name": "Category 3"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<div class="container my-3">
+<!-- A7 Q1 add API Product -->
+<h2>Add Product Form :</h2>
+<form [formGroup]="addProduct">
+    <label>Product ID :</label>
+    <input #ref type="number" class="form-control" formControlName="id">
+    <div class="alert alert-danger" role="alert" [hidden]=" addProduct.valid || addProduct.untouched ">
+        Feild Required!
+      </div>
+    <label>Product Name :</label>
+    <input type="text" class="form-control" formControlName="Name" >
+    <label>Product Price :</label>
+    <input type="number" class="form-control" formControlName="Price" >
+    <label>Product Quantity :</label>
+    <input type="number" class="form-control" formControlName="Quantity">
+    <label>Product Category :</label>
+    <select class="form-control" formControlName="CateogryID">
+        <option *ngFor="let i of CategoryList" value="{{i.id}}"> {{ i.Name }}</option>
+    </select>
+    <br>
+    <button class="btn btn-block btn-primary" (click)="addNewProductRform()" disabled="addProduct.invalid"> Add New Product </button>
+</form>
+
+
+</div>

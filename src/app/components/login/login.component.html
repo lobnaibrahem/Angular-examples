@@ -1,0 +1,9 @@
+<div class="container my-3">
+    <form (ngSubmit)="submit()">
+        <label>Email:</label>
+        <input class="form-control" #eRef="ngModel" name="email" type="email" [(ngModel)]="user.userMail" required>
+        <label>Password:</label>
+        <input class="form-control" #pRef="ngModel" name="pass" type="password" [(ngModel)]="user.userPass" required>
+        <button class="btn btn-primary" type="submit">LOG IN</button>
+    </form>
+</div>

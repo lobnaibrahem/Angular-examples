@@ -1,0 +1,15 @@
+<div class="container my-5 text-center">
+    <div class="card" style="width: 18rem;">
+        <img src="https://picsum.photos/300/200" class="card-img-top" alt="img">
+        <div class="card-body">
+          <h3> Product Name : {{ product?.Name }}</h3>
+          <h4>Product Price : {{ product?.Price }}</h4>
+          <h4> Product Quantity : {{ product?.Quantity }}</h4>
+          <br>
+          <button class="btn btn-outline-primary mx-1" (click)="previous()" [disabled]="product?.id == 1 " > Previous  </button>
+          <button class="btn btn-outline-primary mx-1" (click)="next()" [disabled]="product?.id == 9 "> Next  </button>
+          <hr>
+          <button class="btn btn-outline-primary btn-block" (click)="returnBack()"> Go Back </button>
+        </div>
+      </div>
+</div>

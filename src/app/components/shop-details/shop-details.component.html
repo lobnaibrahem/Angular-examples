@@ -1,0 +1,24 @@
+
+<table class="table table-striped mt-3">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Price</th>
+        <th>Quntity</th>
+        <th>Detials</th>
+        <th>Buy</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of productListOfCatID">
+        <td> {{ item.Name }}</td>
+        <td> {{ item.Quantity }}</td>
+        <td> {{ item.Price }}</td>
+        <td><input type="number" class="form-control" #inRef value="1"></td>
+        <td><button class="btn btn-primary" (click)="details(item.id , item.Quantity )"> Details </button></td>
+        <td><button class="btn btn-dark" (click)="buyItem( item.Price , inRef.value)">Buy</button></td>
+      </tr>
+    </tbody>
+    <br><br>
+  </table>

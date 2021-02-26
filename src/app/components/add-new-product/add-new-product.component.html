@@ -1,0 +1,28 @@
+<!-- A6 Q7 add Static Product -->
+<div class="container my-3">
+    <button class="btn btn-block btn-primary" (click)="addNewStaticProduct()"> add static Product</button>
+<br>
+<hr>
+<br>
+<!-- A6 Q8 add API Product -->
+<h2>Add Product Form :</h2>
+<div>
+    <label>Product ID :</label>
+    <input type="number" class="form-control" [(ngModel)]="APIProdcuct.id">
+    <label>Product Name :</label>
+    <input type="text" class="form-control" [(ngModel)]="APIProdcuct.Name">
+    <label>Product Price :</label>
+    <input type="number" class="form-control" [(ngModel)]="APIProdcuct.Price">
+    <label>Product Quantity :</label>
+    <input type="number" class="form-control" [(ngModel)]="APIProdcuct.Quantity">
+    <label>Product Category :</label>
+    <select class="form-control" [(ngModel)]="APIProdcuct.CateogryID">
+        <option *ngFor="let i of CategoryList" value="{{i.id}}"> {{ i.Name }}</option>
+    </select>
+    <br>
+
+    <button  class="btn btn-block btn-primary" (click)="addNewProduct()"> Add New Product </button>
+</div>
+
+
+</div>
